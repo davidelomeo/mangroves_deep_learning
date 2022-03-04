@@ -1,0 +1,12 @@
+numpy
+jupyter-client
+jupyterlab
+earthengine-api
+geemap 
+tensorflow
+tensorflow-addons
+tensorboard
+matplotlib
+acse2020-acse9-finalreport-acse-dl1420-3/custom_packages/CustomNeuralNetworks/dist/CustomNeuralNetworks-0.1.0-py3-none-any.whl
+acse2020-acse9-finalreport-acse-dl1420-3/custom_packages/eeCustomDeepTools/dist/eeCustomDeepTools-0.1.0-py3-none-any.whl
+acse2020-acse9-finalreport-acse-dl1420-3/custom_packages/eeCustomTools/dist/eeCustomTools-0.1.0-py3-none-any.whl
