@@ -52,8 +52,6 @@
 # About The Project
 The aim of the project is to build a cloud-based mangroves monitoring framework using Google Collaboratory, Google Earth Engine and Google Storage and using Convolutional Neural Networks for the classification of landcover types.
 
-The current repository is submitted as an Imperial College London - MSc in Applied Computational Science and Engineering - Independent Research Project final Report and Code.
-
 ## Built With
 
 * [Google Colab](https://colab.research.google.com)
