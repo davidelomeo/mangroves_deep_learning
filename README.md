@@ -1,26 +1,3 @@
-## acse2020-acse9-finalreport-acse-dl1420-3
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/acse-2020/acse2020-acse9-finalreport-acse-dl1420-3">
-    <img src="readme_pictures/logo_imperial_college_london.png" alt="Logo" width="720" height="200">
-  </a>
-  <h2 align="center">Department of Earth Science and Engineering </h2>
-  <h2 align="center">MSc in Applied Computational Science and Engineering </h2>
-</p>
-<p align="center">
-  <img src="readme_pictures/logo_imperial_college_london_scientia.png" width="350" />
-  <img src="readme_pictures/logo_royal_school_of_mines.png" width="350" /> 
-</p>
-<p align="center">
-  <h2 align="center">Independent Research Project</h2>
-  <h2 align="center">Final Report and Code</h2>
-  <h1 align="center">Using the Power of Cloud Computing to Identify the Changes in the Spatial-Temporal Distribution of Drivers of Mangrove Deforestation in SE Asia</h1>
-  <h3 align="center">by</h3>
-  <h3 align="center">Davide Lomeo</h3>
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -186,15 +163,16 @@ In order to get access the environment and all its installed packages, please ty
 conda activate mangroves
 ```
 
+/
 <!-- THE WORKFLOW -->
 ## The Workflow
 The monitoring framework has been split into three Google Colab notebooks a follow:
 
 | Notebook | Description |
 | :--- | :--- |
-| **[Notebook_1-Generate_Patches](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-dl1420-3/blob/main/Notebook_1-Generate_Patches.ipynb)** | Acquisition of satellite imagery from the Google Servers using GEE; classification of a target geographical area; export of the classified image as TensorFlow (TF) records (TFRecords) patches of user-defined size (pixels) |
-| **[Notebook_2-Generate_model](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-dl1420-3/blob/main/Notebook_2-Generate_Model.ipynb)** | Import TFRecords and convert them into datasets ready to be fed into Neural Networks (NNs); use Keras API to train newly generated or pre-trained NNs |
-| **[Notebook_3-Make_Predictions](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-dl1420-3/blob/main/Notebook_3-Make_Predictions.ipynb)** | Acquisition of satellite imagery of a small target area using GEE; export the image as TFRecord patches; load NNs models to make predictions of the target image |
+| **[Notebook_1-Generate_Patches](https://github.com/davidelomeo/mangroves_deep_learning/blob/main/Notebook_1-Generate_Patches.ipynb)** | Acquisition of satellite imagery from the Google Servers using GEE; classification of a target geographical area; export of the classified image as TensorFlow (TF) records (TFRecords) patches of user-defined size (pixels) |
+| **[Notebook_2-Generate_model](https://github.com/davidelomeo/mangroves_deep_learning/blob/main/Notebook_2-Generate_Model.ipynb)** | Import TFRecords and convert them into datasets ready to be fed into Neural Networks (NNs); use Keras API to train newly generated or pre-trained NNs |
+| **[Notebook_3-Make_Predictions](https://github.com/davidelomeo/mangroves_deep_learning/blob/main/Notebook_3-Make_Predictions.ipynb)** | Acquisition of satellite imagery of a small target area using GEE; export the image as TFRecord patches; load NNs models to make predictions of the target image |
 
 The notebooks have been designed to work as standalones and each has a speficic task as described above. The user may decide which notebook to use according to needs. Nonethelss, if the aim of the user is to take advantage of the full monitoring framework, then it is necessary to follow the numbering of the notebooks (1 to 3) as showed in the table above.
 
@@ -217,7 +195,7 @@ The user may prefer to use Google Cloud Storage over Google Drive in some paet o
 
 <!-- CUSTOM PACKAGES -->
 ## Custom Packages
-The project implements three custom packages. More info are available [here](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-dl1420-3/tree/main/custom_packages)
+The project implements three custom packages. More info are available [here](https://github.com/davidelomeo/mangroves_deep_learning/tree/main/custom_packages)
 
 ### Testing Suite
 The custom packages have a built-in test suite that can easily be run using `pytest`.
@@ -236,4 +214,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Davide Lomeo - davide.lomeo20@imperial.ac.uk
+Davide Lomeo - davide.lomeo.21@ucl.ac.uk
