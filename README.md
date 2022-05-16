@@ -167,7 +167,6 @@ In order to get access the environment and all its installed packages, please ty
 conda activate mangroves
 ```
 
-/
 <!-- THE WORKFLOW -->
 ## The Workflow
 The monitoring framework has been split into three Google Colab notebooks a follow:
