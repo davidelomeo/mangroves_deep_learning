@@ -5,6 +5,7 @@
     <li>
       <a href="#About-The-Project">About The Project</a>
       <ul>
+        <li><a href="#citation">Citation</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -51,6 +52,11 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 The aim of the project is to build a cloud-based mangroves monitoring framework using Google Collaboratory, Google Earth Engine and Google Storage and using Convolutional Neural Networks for the classification of landcover types.
+
+A paper reporting the results of this framework has been published on the journal *Remote Sensing*: https://doi.org/10.3390/rs14102291
+
+## Citation
+Lomeo, D.; Singh, M. Cloud-Based Monitoring and Evaluation of the Spatial-Temporal Distribution of Southeast Asia’s Mangroves Using Deep Learning. Remote Sens. 2022, 14, 2291. https://doi.org/10.3390/rs14102291
 
 ## Built With
 
