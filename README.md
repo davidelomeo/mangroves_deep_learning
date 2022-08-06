@@ -44,6 +44,7 @@
       <ul>
           <li><a href="#Testing-Suite">Testing Suite</a></li>
       </ul>
+    <li><a href="#Models">Models</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#Contact">Contact</a></li>
     </li>
@@ -210,6 +211,9 @@ and the testing suite can be run from the main folder of this project, from the 
 ```
 pytest
 ```
+<!-- MODELS -->
+## Models
+The folder `Models` contanins the three trained models, namely **ResNet50_U-Net**, **U-Net** and **VGG19_U-Net**. These can be downaloaded anc used to classify mangroves. Please refer to the [DOI](https://doi.org/10.3390/rs14102291) for the specifics.
 
 <!-- LICENSE -->
 ## License
